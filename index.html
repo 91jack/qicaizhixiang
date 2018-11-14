@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>七彩之家</title>
+		<link rel="stylesheet" type="text/css" href="static/css/app.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/swiper-4.3.3.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/index.css"/>
+	</head>
+
+	<body class="bg-edf">
+		<!--首页轮播-->
+		<div class="index-slider">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><a href=""><img src="static/images/banner1.png"></a></div>
+					<div class="swiper-slide"><a href=""><img src="static/images/banner1.png"></a></div>
+					<div class="swiper-slide"><a href=""><img src="static/images/banner1.png"></a></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		
+		<!--首页icon导航-->
+		<div class="index-home-icon">
+			<a href="">
+				<img src="static/images/icon_01.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_02.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_03.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_04.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_05.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_06.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_07.png" alt="" />
+			</a>
+			<a href="">
+				<img src="static/images/icon_08.png" alt="" />
+			</a>
+		</div>
+		
+		
+		
+		<!--首页要闻活动-->
+		<div class="index-news-list">
+			<div class="index-news-item">
+				<div class="index-newsitem-header">
+					<h2>七彩通知</h2>
+					<a href="" class="more"><em></em>更多</a>
+				</div>
+				<div class="index-newsitem-main">
+					<a href="l">
+						<div class="fl text-wrap">
+							<h3>2018年10月1日-2018年12月公益之家评选活动通知</h3>
+							<p>2018-07-04 16:40</p>
+						</div>
+						<div class="fr img-wrap">
+							<img src="static/images/img1.png"/>
+						</div>
+					</a>
+					
+				</div>
+			</div>
+			
+			<div class="index-news-item">
+				<div class="index-newsitem-header">
+					<h2 style="border-color: #f7d127;">在线评选</h2>
+					<a href="" class="more"><em></em>更多</a>
+				</div>
+				<div class="index-newsitem-main">
+					<a href="">
+						<div class="fl text-wrap">
+							<h3>坚持思想党建与制度治党同向发力</h3>
+							<p>2018-07-04 16:40</p>
+						</div>
+						<div class="fr img-wrap">
+							<img src="static/images/img2.png"/>
+						</div>
+					</a>
+					
+				</div>
+			</div>
+			<div class="index-news-item">
+				<div class="index-newsitem-header">
+					<h2 style="border-color: #2e80ff;">评选结果</h2>
+					<a href="" class="more"><em></em>更多</a>
+				</div>
+				<div class="index-newsitem-main">
+					<a href="">
+						<div class="fl text-wrap">
+							<h3>坚持思想党建与制度治党同向发力</h3>
+							<p>2018-07-04 16:40</p>
+						</div>
+						<div class="fr img-wrap">
+							<img src="static/images/img3.png"/>
+						</div>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="static/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/js/swiper-4.3.3.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript">
+			// 移动端响应式匹配 24
+			(function () {
+			  document.addEventListener('DOMContentLoaded', function () {
+				var deviceWidth = document.documentElement.clientWidth;
+				//console.log(deviceWidth)
+				
+					document.documentElement.style.fontSize = deviceWidth / 31.25 + 'px';
+					
+				   }, false);
+				   
+				window.onresize = function(){
+					var deviceWidth = document.documentElement.clientWidth;
+					
+						document.documentElement.style.fontSize = deviceWidth / 31.25 + 'px';
+					
+				};
+			})();
+			
+			var swiper = new Swiper('.swiper-container',{
+				//autoplay:true,
+				loop: true,
+				pagination: {
+			        el: '.swiper-pagination',
+			        bulletElement : 'li',
+			      },
+			});
+		</script>
+	</body>
+</html>
