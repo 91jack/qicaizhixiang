@@ -21,7 +21,7 @@
 }
 .swiper-pagination {
 	height:1rem;
-	margin-bottom: 3rem;
+	margin-bottom: 1.5rem;
 }
 
 .swiper-pagination-bullet {
@@ -61,9 +61,7 @@
 	color:#1A1A1A;*/
 }
 
-.index-home-icon a:nth-child(5n){
-	margin-right: 0;
-}
+
 .index-home-icon a img {
 	width:7.333333rem;
 	height:9.208333rem;
@@ -137,6 +135,7 @@
 	padding: 0 1.25rem;
 	border-radius: 0.75rem;
 	margin: 0.666666rem auto;
+	box-shadow:0px 3px 15px 0px rgba(0, 0, 0, 0.2);
 }
 .index-newsitem-header {
 	height:2.458333rem;
