@@ -171,6 +171,10 @@
 .index-newsitem-main .text-wrap h3 {
 	font-size:1.166666rem;
 	color: #000;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
 }
 .index-newsitem-main .text-wrap p {
 	position: absolute;
